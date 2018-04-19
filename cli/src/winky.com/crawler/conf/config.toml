@@ -1,0 +1,27 @@
+[mysql]
+host = "192.168.1.102"
+port = "3306"
+user = "admin"
+pswd = "123456"
+charset = "utf8"
+database = "clcw"
+
+[log]
+debug = true
+sqlLog = false
+file = "./log/log.log"
+
+[redis]
+host = "192.168.2.115"
+port = "6379"
+pswd = ""
+database = "2"
+queue = "crawler_queue"
+timeout = 60
+
+[ant]
+appKey = "AK2016.API.1001"
+secretKey = "ax1001er"
+antNestUrl = "http://antnest.test.s.winky.cn"
+
+

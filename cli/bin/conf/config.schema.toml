@@ -1,0 +1,27 @@
+[mysql]
+host = "${MYSQL.CLCW.DB_HOST}"
+port = "${MYSQL.CLCW.DB_PORT}"
+user = "${MYSQL.CLCW.DB_USER}"
+pswd = "${MYSQL.CLCW.DB_PWD}"
+charset = "${MYSQL.CLCW.DB_CHARSET}"
+database = "${MYSQL.CLCW.DB_NAME}"
+
+[log]
+debug = true
+sqlLog = false
+file = "./log/log.log"
+
+[redis]
+host = "${REDIS.NODE1.HOST}"
+port = "${REDIS.NODE1.PORT}"
+pswd = ""
+database = "2"
+queue = "clcw_crawler_queue"
+timeout = 60
+
+[ant]
+appKey = "${ANTNEST.USER1001.APP_KEY}"
+secretKey = "${ANTNEST.USER1001.SECRET_KEY}"
+antNestUrl = "${ANTNEST.ANT_URL}"
+
+
